@@ -19,7 +19,7 @@ const Button = ({
     secondary:
       "bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-400",
     outline:
-      "border border-purple-600 text-purple-600 hover:bg-purple-50 focus:ring-purple-500",
+      "border border-yellow text-purple- hover:bg-purple-50 focus:ring-gold",
   };
 
   // Sizes

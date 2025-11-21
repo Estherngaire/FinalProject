@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../common/Button';
+import Accessories from '../../assets/accessories.jpg';
+import ResponsiveImage from '../common/Responsiveimagae';
 
 const NewsletterSection = () => {
   const [email, setEmail] = useState('');
@@ -12,18 +14,20 @@ const NewsletterSection = () => {
   };
 
   return (
-    <section className="bg-teal-700 text-pink py-16 w-1440px h-490px mb-10">
-
-      <div className="container mx-auto px-4 text-center">
-        <h3 className="text-3xl font-bold mb-4">Get more discount Off your order</h3>
-        <p className="mb-8">Join our mailing list</p>
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row justify-center items-center gap-4">
+    <section className="bg-gray-400  py-16 w-full max-w-[1440px] mx-auto h-auto mb-3 flex flex-row gap-15">
+      <div className='ml-10'>
+        <ResponsiveImage src={Accessories} alt="Accessory" className='w-180 h-80' />
+      </div>
+      <div className='mt-30'>
+        <h3 className="text-3xl font-bold">Get more discount Off your order</h3>
+        <p className="mb-8 font-semibold">Join our mailing list</p>
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center gap-4">
           <input
             type="email"
             placeholder="Your email address"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            className="px-4 py-2 rounded text-white-700 w-full sm:w-1/3"
+            className="bg-white w-full sm:w-1/3 "
           />
           <Button type="submit" className="w-full sm:w-auto">Shop Now</Button>
         </form>

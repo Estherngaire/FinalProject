@@ -21,17 +21,19 @@ function ProductShowcase() {
     ];
     return (
         
-    <div className="max-w-6xl mx-auto p-6 w-1440px h-1252px mb-10 px-4 bg-pink-800">
-      <h2 className="text-3xl font-bold mb-6 text-center">Our Products</h2>
-      <p className='text-2xl text-center'>Products Provided are selected from the best products with number 1 quality</p>
-         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+    <div className="w-full max-w-[1440px] mx-auto h-auto mb-2 px-4 bg-purple-500">
+      <div className='mb-6 mt-6'>
+        <h2 className="text-3xl font-bold mb-2 text-center text-gray-700">Our Products</h2>
+        <p className='text-center mb-6'>Explore our hand-picked collection of on-trnd outfits and accessories each piece expertly crafted to blend styles,comfort and quality.From tailored staples to standout accents,our collection lets you express yourself effortlessly.</p>
+      </div>
+         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1">
             {products.map((product) => (
           <ProductCard
             key={product.id}
             name={product.name}
             price={product.price}
-            image={product.image} 
-            /> 
+            image={product.image}
+          />
         ))};
          </div>
     </div>
