@@ -1,4 +1,4 @@
-import Testimonial from "../../assets/Testimonials.jpg";
+import Testimonial from "../../assets/testimonials.jpg";
 import ResponsiveImage from "../common/Responsiveimagae";
 function Testimonials() {
   const testimonials = [

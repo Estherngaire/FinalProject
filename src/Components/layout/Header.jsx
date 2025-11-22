@@ -4,7 +4,7 @@ function Header() {
      <div className="container mx-auto flex justify-between items-center">
       <h1 className="text-xl md:2xl lg:3xl font-bold">Pure Canvas</h1>
     <nav>
-        <ul className="flex gap-6 text-lg">
+        <ul className="flex gap-6 text-lg w-full md;text-xl lg:text-2xl md:w-1/2 sm:1/4">
 
             <li><a href="#home" className="font-semibold">Home</a></li>
             <li><a href="#about" className="font-semibold">About</a></li>

@@ -4,9 +4,9 @@ import ResponsiveImage from "../common/Responsiveimagae";
 
 function About() {
     return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg: gap-8 items-center w-full max-w-[1440px] mx-auto h-auto mb-1 bg-cover bg-purple-400">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg: gap-8 items-center w-full max-w-[1440px] mx-auto h-auto mb-1 bg-cover md:w-1/2 sm:h-1/4 bg-purple-400">
         <div className="w-full h-auto">
-            <ResponsiveImage src={Keys} alt="KeyHolder" className="h-[500px] ml-10 w-full object-cover" />
+            <ResponsiveImage src={Keys} alt="KeyHolder" className="max-h-[500px] ml-10 w-full object-cover sm:1/4 md:1/2" />
         </div>
         <div className=" mx-auto px-4 justify-items-end  space-y-4">
             <h2 className="text-3xl font-bold mb-4 mr-43 text-gray-300">About Us</h2>
