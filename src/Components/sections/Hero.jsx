@@ -9,7 +9,7 @@ function Hero() {
          <Header/>
         <h2 className="font-bold text-4xl mb-5 text-center mt-3 text-gray-600">Elegance with an edge.</h2>
         <p className="font-xs text-xl text-center">Redefine Your Everyday.Style,Beauty & Strength -All in one Place.From head to toe-beautiful skincare,fashion-forward apparel and eye-catching accessories,all curated so you can build the look,feel the confidence and own your day.</p>
-        <Button className="mt-5" variant="outline" size="lg">Shop the Collection</Button>
+        <Button className="mt-5 items-center" variant="outline" size="lg">Shop the Collection</Button>
         <Statistics/>
       </div>
     </section>

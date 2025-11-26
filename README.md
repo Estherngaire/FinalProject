@@ -2,7 +2,7 @@
 
 ### **Live Demo**
 
-[Deployed URL]
+{https://final-project-git-main-esthers-projects-d758b7bb.vercel.app} 
 
 # **Project Overview**
 
@@ -23,8 +23,8 @@ The platform aims to build a strong brand presence while giving users a simple, 
 
 # **Typography**
 
-* **Headings – [Your Font]:** Selected for boldness and clarity, ensuring titles and section headers stand out across all screen sizes.
-* **Body Text – [Your Font]:** Chosen for readability and smooth scaling on small and large devices, creating a clean reading experience.
+* **Headings – [Bold ]:** Selected for boldness and clarity, ensuring titles and section headers stand out across all screen sizes.
+* **Body Text – [lg:3xl md:2xl sm:xl]:** Chosen for readability and smooth scaling on small and large devices, creating a clean reading experience.
 
 ---
 
@@ -55,13 +55,16 @@ The platform aims to build a strong brand presence while giving users a simple, 
 * **Reusable Components:**
 The project uses a component-driven structure for reusability and maintainability. Key reusable components include:
 
-* ProductCard
+**ProductCard**
+
 Displays product image, name, and description with consistent layout and styling.
 
-* Button
+**Button**
+
 A custom button component used across the site for consistency in interaction and styling.
 
-* ResponsiveImage
+**ResponsiveImage**
+
 A lazy-loading image component built using React.memo to improve performance and prevent re-renders.
 
 * Components were separated for better maintainability and reduced code duplication.
