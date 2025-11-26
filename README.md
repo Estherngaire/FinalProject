@@ -120,10 +120,15 @@ Variant: JavaScript
 
 After development, i pushed the project to GitHub using:
 
-git init
+git init 
+
 git add .
+
 git commit -m "Initial commit"
+
 git remote add origin <repo-url>
+
+
 git push -u origin main
 ---
 
