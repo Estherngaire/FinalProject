@@ -1,5 +1,5 @@
 import Testimonial from "../../assets/testimonials.jpg";
-import ResponsiveImage from "../common/Responsiveimagae";
+import ResponsiveImage from "../common/Responsiveimage";
 function Testimonials() {
   const testimonials = [
     {
@@ -10,23 +10,23 @@ function Testimonials() {
   ];
 
   return (
-    <div className="flex flex-row  w-full max-w-[1440px] mx-auto h-auto mb-2 bg-gray-500">
-      <div className="h-30">
-        <h2 className="text-2xl font-bold text-center mt-5">What Our Customers Say</h2>
+    <div className="flex flex-col md:flex-row gap-6 items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 bg-primary mb-3 mt-3">
+      <div className="h-30 w-1/2 flex flex-col  mb-5">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mt-5">What Our Customers Say</h2>
         {testimonials.map((item, index) => (
-          <div key={index} className="p-2 bg-purple-400 shadow-lg rounded-2xl w-full max-w-[180px] mx-auto h-auto mt-7 ml-5 item-left">
+          <div key={index} className="p-5 bg-secondary shadow-lg rounded-2xl w-full max-w-md mx-auto flex flex-col items-center text-center">
             <ResponsiveImage
               src={item.image}
               alt={item.name}
-              className="w-10 h-10 rounded-full object-cover mx-auto"
+              className="w-20 h-20 rounded-full object-cover mx-auto"
             />
             <h3 className="font-semibold text-center mt-3">{item.name}</h3>
             <p className="italic text-center mt-3">"{item.message}"</p>
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 ml-15 mt-3 mb-3">
-              <img src={Testimonial} alt="Clothingline" className="w-205 h-100"/>
+      <div className="grid grid-cols-1 w-full mb-3">
+              <img src={Testimonial} alt="Clothingline" className="w-full max-h-[400px] object-cover rounded-xl"/>
       </div>
     </div>
   );

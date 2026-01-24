@@ -1,10 +1,8 @@
-import React from "react";
-
 function Footer() {
   return (
-    <footer className="footer w-full max-w-[1440px] mx-auto h-auto top-4944px8 bg-gray-500">
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gaps-8 sm:grid-cols-2 gaps- mt-1">
-       <div className="mt-5 ml-3">
+    <footer className="footer w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-secondary mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-neutralDark">
+       <div>
       <ul>
         <h3 className="font-bold">Our Products</h3>
         <li><a href="#">Women</a></li>
@@ -13,7 +11,7 @@ function Footer() {
         <li><a href="#">Beauty</a></li>
       </ul>
       </div>
-      <div className="mt-5">
+      <div >
       <ul>
         <h3 className="font-bold">Customer Care</h3>
         <li><a href="#">Shipping & Returns</a></li>
@@ -21,7 +19,7 @@ function Footer() {
         <li><a href="#">Privacy Policy</a></li>
       </ul>
       </div>
-      <div className="mt-5">
+      <div>
         <ul>
         <h3 className="font-bold">Contacts</h3>
         <li><a href="#">Instagram</a></li> 
@@ -31,7 +29,7 @@ function Footer() {
       </div>
       </div>
       <div>
-    <p className="text-center font-semibold">©{new Date().getFullYear()}Pure Canvas.Empowering Fashion.</p>
+    <p className="text-center font-semibold mt-3">©{new Date().getFullYear()}Pure Canvas.Empowering Fashion.</p>
       </div>
     </footer>
   );
