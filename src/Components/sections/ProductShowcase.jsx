@@ -24,7 +24,7 @@ function ProductShowcase() {
     <div className="flex flex-col w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 mb-3 mt-3 bg-primary">
       <div className='mb-6 mt-6'>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 text-center text-gray-700">Our Products</h2>
-        <p className='text-center text-xl md:text-2xl lg:text-3xl mb-6'>Explore our hand-picked collection of on-trnd outfits and accessories each piece expertly crafted to blend styles,comfort and quality.From tailored staples to standout accents,our collection lets you express yourself effortlessly.</p>
+        <p className='text-center text-xl md:text-2xl lg:text-3xl mb-6'>Explore our hand-picked collection of on-trend outfits and accessories each piece expertly crafted to blend styles,comfort and quality.From tailored staples to standout accents,our collection lets you express yourself effortlessly.</p>
       </div>
          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {products.map((product) => (

@@ -9,7 +9,7 @@ function NewInStore() {
         <div className="flex flex-col md:flex-row gap-6 w-full max-w-[1440px] mx-auto h-auto mb-3 mt-3 opacity-100 bg-primary">
             <div className="flex flex-col justify-center md:w-1/2 w-full">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 ml-10 mt-5 text-gray-600">Shop New Arrivals</h2>
-                <p className="mb-3">Get ready to elevate your style with our latest collection!Discover the hottest products,trending fashion and exclusive drops that will take your wardrobe to the next level </p>
+                <p className="mb-3 text-xl md:text-2xl lg:text-3xl">Get ready to elevate your style with our latest collection! Discover the hottest products,trending fashion and exclusive drops that will take your wardrobe to the next level </p>
                 <Button variant="secondary" size="lg" className="text-center bg-secondary">Unlock Exclusive Deals</Button>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4  gap-6 md:w-1/2 w-full p-4">

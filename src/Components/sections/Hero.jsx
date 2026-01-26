@@ -9,7 +9,7 @@ function Hero() {
       <div className="w-full max-h-[1000px] max-w-[1400px] pt-3">
          <Header/>
         <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl mb-5 text-center mt-3 text-neutralDark">Elegance with an edge.</h2>
-        <p className="font-xs text-xl md:text-2xl lg:text-3xl text-center">Redefine Your Everyday.Style,Beauty & Strength -All in one Place.From head to toe-beautiful skincare,fashion-forward apparel and eye-catching accessories,all curated so you can build the look,feel the confidence and own your day.</p>
+        <p className="font-xs text-xl md:text-2xl lg:text-3xl text-center">Redefine Your Everyday Style,Beauty & Strength all in one place.From head to toe,beautiful skincare,fashionforward apparel and eye-catching accessories,all curated so you can build the look,feel the confidence and own your day.</p>
        <div className="flex justify-center">
         <Button className="mt-5 bg-secondary" variant="outline" size="lg">Shop the Collection</Button>
         </div> 

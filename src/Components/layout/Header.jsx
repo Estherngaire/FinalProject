@@ -1,7 +1,7 @@
 function Header() {
     return (
     <header className="bg-secondary text-neutralDark  w-full">
-     <div className="flex justify-between items-center w-full px-4 sm:px-6 lg:px-8 py-4">
+     <div className="flex justify-between w-full px-4 sm:px-6 lg:px-8 py-4">
       <h1 className="text-xl md:text-2xl font-bold">Pure Canvas</h1>
     <nav>
         <ul className="flex gap-6  text-base md:text-lg">

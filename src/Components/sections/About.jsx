@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className=" flex flex-col justify-center w-full md:w-1/2">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4  text-neutralDark">About Us</h2>
-            <p className="mb-6 text-xl md:text-2xl lg:text-3xl">At Pure Canvas, you will find clothing that speaks to your personality, beauty products that enhance your glow and accessories that amplify your story — because you deserve to feel bold, beautiful and unstoppable every single day.We are on a mission to redefine what “everyday” means.</p>
+            <p className="mb-6 text-xl md:text-2xl lg:text-3xl">At Pure Canvas, you will find clothing that speaks to your personality, beauty products that enhance your glow and accessories that amplify your story,because you deserve to feel bold, beautiful and unstoppable every single day.We are on a mission to redefine what “everyday” means.</p>
             <Button variant="outline" size="md" className="ml-50 bg-secondary">Learn More</Button>
         </div>
 
