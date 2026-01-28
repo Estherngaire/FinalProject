@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-secondary mt-3">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-neutralDark">
+      <div className="flex flex-col md:flex-row gap-20 justify-center text-neutralDark">
        <div>
       <ul>
         <h3 className="font-bold">Our Products</h3>
@@ -34,4 +34,4 @@ function Footer() {
     </footer>
   );
 }
-export default Footer;
+export default Footer; 

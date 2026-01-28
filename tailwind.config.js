@@ -12,8 +12,8 @@ export default {
     },
     extend: {
       colors: {
-        primary:'blue',
-        secondary:'purple',
+        primary:'lightblue',
+        secondary:'#c084fc',
         accent:'amber',
         neutralDark:'gray',
         neutralLight:'lightgray',

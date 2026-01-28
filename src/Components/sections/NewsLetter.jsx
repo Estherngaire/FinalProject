@@ -27,7 +27,7 @@ const NewsletterSection = () => {
             placeholder="Your email address"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            className="bg-neutralDark w-1/2 md:w-full "
+            className="bg-neutralDark w-1/2 md:w-full px-4 py-2"
           />
           <Button type="submit" className="w-full sm:w-auto">Shop Now</Button>
         </form>
